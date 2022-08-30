@@ -1,0 +1,50 @@
+.bdBackground{
+
+    background-image: url("../图片/方格.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.allBox{
+    margin: 10px 200px;
+    width: 400px;
+    height: 300px;
+    border: 5px solid darkgoldenrod;
+    box-sizing: border-box;
+
+}
+.text{
+    float: left;
+}
+
+.font1{
+    font-size: large;
+    color: gold;
+}
+
+.font2{
+    font-size: large;
+    color: mediumvioletred;
+}
+
+.table{
+    margin: 50px;
+    font-size:small;
+    /*border: 1px red solid;*/
+    color: azure;
+}
+.input{
+    border-radius: 10px ;
+    border:1px azure solid ;
+}
+.submit{
+    background-color: blanchedalmond;
+    align-self: center;
+    color: black;
+}
+.logon{
+    float: right;
+}
+.username_err{
+    color: red;
+}
