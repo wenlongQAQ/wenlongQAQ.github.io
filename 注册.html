@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>春夏秋冬又一春</title>
+    <link rel="stylesheet" href="../../css/demo.css">
+    <script type="text/javascript" src="../../js/login.js"></script>
+</head>
+<body class="bdBackground">
+
+    <div class="allBox">
+        <div class="logon">
+            <a href="注册.html">
+                已有账号?立即登录
+            </a>
+        </div>
+        <div class="text">
+            <div class="font1">新用户注册</div>
+            <div class="font2">USER REGISTER</div>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <table class="table" cellpadding="3px" border="1px" >
+                    <tr>
+                        <td><label for="username">用户名:</label></td>
+                        <td><input type="text" name="username" id="username" placeholder="请输入用户名(账号)" class="input">
+                            <br> <span  id="username_err" style="display:none;color: red"> 用户名输入错误</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">密码:</label></td>
+                        <td><input type="password" name="password" id="password" placeholder="请输入密码" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">邮箱:</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="请输入邮箱" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">姓名:</label></td>
+                        <td><input type="text" name="name" id="name" placeholder="请输入姓名" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            性别:
+                        </td>
+                        <td >
+                            <input type="radio" name="gender" class="input" value="male"> 男
+                            <input type="radio" name="gender" value="female">女<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            出生日期:
+                        </td>
+                        <td ><input type="date" name="birthday" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" class="submit" value="立即注册!!!">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
